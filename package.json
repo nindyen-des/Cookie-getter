@@ -1,6 +1,15 @@
 {
+  "name": "my-node-server",
+  "version": "1.0.0",
+  "description": "Simple Node.js server using Express",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "install-deps": "npm install && npx playwright install"
-  }
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "author": "",
+  "license": "MIT"
 }
