@@ -1,16 +1,13 @@
 {
-  "name": "my-node-server",
+  "name": "cookie-getter",
   "version": "1.0.0",
-  "description": "Simple Node.js server using Express and Playwright",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install-deps": "yarn install && npx playwright install"
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "express": "^4.19.2",
     "playwright": "^1.49.0"
-  },
-  "author": "",
-  "license": "MIT"
+  }
 }
