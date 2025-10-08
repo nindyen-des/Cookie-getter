@@ -1,14 +1,15 @@
 {
   "name": "my-node-server",
   "version": "1.0.0",
-  "description": "Simple Node.js server using Express",
+  "description": "Simple Node.js server using Express and Playwright",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "install-deps": "npm install && npx playwright install"
+    "install-deps": "yarn install && npx playwright install"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "playwright": "^1.49.0"
   },
   "author": "",
   "license": "MIT"
